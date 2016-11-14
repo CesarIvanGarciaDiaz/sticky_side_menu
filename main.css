@@ -1,0 +1,47 @@
+.container {
+    margin: 0 0 0 150px;
+    width: 720px;
+    padding-left: 20px;
+}
+
+nav {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    left: 0;
+    top: 0;
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    border-right: 2px;
+    background-color: rgb(198, 201, 195);
+    margin: 0;
+    height: 100%
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    padding: 15px 50px 15px 0;
+    text-decoration: none;
+    border-bottom: 1px solid #9a9795;
+    /* Establecemos una transición a todas las propiedades */
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+ul li a:hover {
+    background: white;
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    color: black;
+}
+
+.content {
+    padding: 0px 0px 0px 60px;
+}
+
+header h1 {
+    padding: 0px 0px 0px 60px;
+}
